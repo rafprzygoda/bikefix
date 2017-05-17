@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+* {
+	box-sizing: border-box;
+}
+
+.row:before, 
+.row:after {
+	content:"";
+	display: table ;
+	clear: both;
+}
+ 
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	padding: 0px;
+}
+
+body {
+ 	margin: 0;
+ 	font-family: 'Open Sans', sans-serif;
+}
+ 
+ /* CSS section about header */
+ 
+header .row img {
+ 	padding: 10px 0 5px 100px;
+ 	width: 200px;
+ 	height: 100px;
+ 	object-fit: cover;
+}
+
+header {
+ 	background-color: #34495e;
+ 	height: 80px;
+ 	max-height: 100%;
+ 	width: 1500px;
+ 	max-width: 100%;
+ 	margin: 0 auto;
+}
+
+.row .head ul {
+ 	padding: 0 100px 0 0;
+ 	margin: 0;
+ 	list-style-type: none;
+ 	float: right;
+}
+ 
+.row .head ul li {
+ 	display: inline-block;	
+}
+ 
+.head ul > li > a {
+ 	padding: 0 20px;
+ 	display: block;
+ 	line-height: 80px;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	text-transform: uppercase;	
+}
+ 
+.head ul > li:hover {
+	background-color: rgb(236, 240, 241);	
+}
+
+.head ul > li > a:hover {
+	color: rgb(41, 128, 185);	
+}
+
+/* CSS section about hero */
+
+.welcome .slogan {
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+	background: url("https://cdn.pixabay.com/photo/2016/11/22/18/50/bicycle-1850008__340.jpg") center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: justify;
+	font-weight: bold;
+	color: #fff;
+	padding: 20px 100px 20px 10px;
+	margin: 0;
+	display: inline-block;
+	float: right;
+	line-height: 50px;
+	background: rgba(44, 62, 80, .6);
+	position: relative;
+	top: 70px;
+}
+
+.slogan h1 p {
+	font-size: 40px;
+	font-weight: bold;
+	color: #3498db;
+	text-align: left;
+}
+
+/* CSS section with 3 elements */
+
+.advantages .row {
+	height: 250px;
+	margin: 0 auto;
+}
+
+.bomb {	
+	height: 150px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 70px;
+}
+
+.bomb i:hover {
+	color: red;	
+}
+
+.group {
+	height: 150px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 70px;
+}
+
+.group i:hover {
+	color: #00d2f7; 	
+}
+
+.support {
+	height: 150px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 70px;
+}
+
+.support i:hover {
+	color: #E76900;	
+}
+
+/* Header and text */
+
+.advantages .row p {
+	font-size: 16px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	color: #4f4e4e;
+}
+
+h2 {
+	font-size: 16px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;	
+	text-transform: uppercase;
+}
+
+.featured .row {
+	margin: 0 auto;	
+}
+
+.featured .row h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.featured .row p {
+	text-align: center;	
+	width: 600px;
+	color: #c4c5c6;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+/* Gallery */
+
+.gallery [class*='col-'] {
+	float: left;
+	position: relative;
+}
+
+.gallery .row {
+	margin: 0 auto;
+	height: 100px;
+}
+
+.gallery .row img {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 200px;
+	display: block;
+	float: left;
+	object-fit: cover;
+}
+
+.layer {
+	font-size: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+	text-align: center;
+	line-height: 200px;
+}
+
+.gallery .col-3:hover .layer {
+	display: inline-block;
+	background-size: cover;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.gallery i {
+	background-color: #fff;	
+	color: #484848;
+	padding: 5px;
+	border-radius: 20%;
+	cursor: pointer;
+	margin: 0 25px;
+	font-size: 16px;
+}
+	
+/* Employees */
+
+.employee .row {
+	height: 200px;
+	margin: 20px auto;
+}
+
+.employee .person p {
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 15px;
+}
+
+.employee .row img {
+	border-radius: 50%;
+	margin: 0px auto;
+	width: 150px;
+	height: 150px;
+	/*border: none;*/
+	object-fit: cover;
+}
+
+.employee .layer {
+	border-radius: 50%;
+	display: none;
+	margin: 0px auto;
+	width: 150px;
+	height: 150px;
+	border: none;
+	background: rgba(0,0,0,.4);
+}
+
+.employee .person {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 120px;
+}
+
+.employee .layer p {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.employee .person:hover .layer {
+    display: block;
+}
+
+.employee .row h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.employee .row h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Palanquin Dark', sans-serif;
+	text-align: center;
+}
+
+/* Section with image */
+
+.image .row {
+	height: 100%;
+}
+
+.image img {
+	display: block;
+	height: 300px;
+	width: 400px;
+	border: none;
+	border-radius: 10%;
+	margin: 35px auto;
+	object-fit: cover;
+} 
+
+.row .one p {
+	display: block;
+	margin: 0 auto;
+	width: 370px;	
+}
+.row .two p {
+	display: block;
+	margin: 0 auto;
+	width: 270px;
+	font-style: italic;
+}
+
+.row .column {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.image .col-8 h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 17px;
+	font-size: 30px;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+/* Few numbers */
+
+.numbers .row {
+	margin: 10px auto;
+	height: 170px;
+}
+
+.numbers .row p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #00d2f7;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.numbers .row h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: 'Palanquin Dark', sans-serif;
+	text-align: center;
+}
+
+/* Footer */
+
+footer {
+	margin: 0 auto;
+	background-color: #3F3F3F;
+}
+
+footer h2 {
+	text-align: left;
+	color: #fff;
+	padding: 10px 30px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+footer p {
+	text-align: left;
+	color: #fff;
+	padding: 10px 30px;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.address h2,
+.phone h2,
+.mail h2 {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Open Sans', cursive;	
+}
+
+footer i {
+	width: 30px;
+	height: 30px;
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #00d2f7;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+footer .icons {
+	padding: 10px 30px;	
+	font-size: 20px;
+}
+
+.copyright {
+	background-color: #000;
+	height: 50px;
+}
+
+.copyright p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+}

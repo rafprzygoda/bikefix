@@ -1,0 +1,296 @@
+@media (min-width: 768px) {
+    /* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+@media (max-width: 767px){
+    /* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+
+/* HEADER */
+
+	header .row {
+		width: 100%;	
+	}
+	
+	header {
+		height: 40vh;
+		height: auto;
+		width: 100%;	
+	}
+	
+	.row .head ul {
+		display: block;
+		padding: 5px 0;
+		margin: 0;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.row .head ul li {
+		display: block;
+		padding: 5px 0;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	header .row img {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 10px 0;
+	}
+	
+/* SLOGAN */
+
+	.row {
+		width: 100%;	
+	}
+	
+	.slogan {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	
+	.slogan h1 {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 15px;
+		width: 100%;
+		display: block;
+		padding: 0;
+	}
+	
+	.slogan h1 p {
+		text-align: center;	
+		font-size: 25px;
+		padding: 0;
+		margin: 0;
+	}
+	
+/* 3 ELEMENTS */
+
+	.advantages .row {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.bomb,
+	.group,
+	.support {
+		display: block;
+		height: auto;
+	}
+	
+/* FEATURED */
+
+	.featured .row {
+		width: 100%;
+		height: auto;
+	}
+	
+	.featured .row p {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+/* GALLERY */
+
+	.gallery .row img {
+		width: 100%;
+		margin: 5px auto;
+		float: none;
+		object-fit: cover;
+	}
+	
+	.layer {
+		display: block;
+	}
+    
+    .layer i {
+    	display: block;
+    	margin: 20px auto;
+    	width: 60px;
+    	max-width: 100%;
+    	height: 60px;
+    	max-height: auto;
+    	line-height: 50px;
+    	background: rgba(0, 0, 10, 0.3);
+    	color: #fff;
+    }
+
+ /* TEAM */
+ 
+	.employee .row {
+		width: 100%;
+		height: auto
+		margin: 0 auto;
+	}
+
+	.employee .row img {
+		border-radius: 50%;
+		margin: 0px auto;
+		display: block;
+		float: none;
+		width: 150px;
+		height: 150px;
+		border: none;
+		object-fit: cover;
+	}
+
+	.employee .layer:not(p) {
+		border-radius: 0%;
+		display: block;
+		margin: 0px auto;
+		width: 100%;
+		max-width: 100%;
+		height: 150px;
+		border: none;
+		background: rgba(0,0,0, 0.0);
+	}
+
+	.employee .person {
+		width: 100%;
+		display: block;
+		height: auto;
+		border-radius: 50%;
+		margin: 10px auto;	
+	} 	
+ 	
+/* IMAGE */
+
+	.image {
+		width: 100%;
+		display: block;
+		width: 100%;
+	}
+
+	.image .row {
+		width: 100%;
+		height: auto;
+	}
+
+	.image img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.row .one p {
+		padding: 5px;
+		margin: 0 auto;
+		font-size: 0.9em;
+		width: 100%;
+		height: auto;
+	}
+	
+	.row .two p {
+		padding: 5px;
+		margin: 0 auto;
+		width: 100%;
+		font-size: 0.9em;
+		height: auto;
+	}
+
+	.row .column {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.image .col-12 h2 {
+		width: 100%;	
+	}
+
+/* NUMBERS */
+
+	.numbers .row .col-s-3 {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.numbers .row {
+		width: 100%;
+		height: auto;
+	}
+
+/* FOOTER */
+
+	footer {
+		width: 100%;
+		margin: 0;
+	}
+
+	footer .row {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.row .about {
+		display: block;
+		width: 100%;
+		height: auto;
+	} 
+
+	.row .contact {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.row .social {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.social .icons i {
+		width: 50px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 10px auto;
+		border-radius: 10%;
+	}
+
+	footer .row .copyright {
+		width: 100%;
+		display: block;
+	}
+
+	.copyright p {
+		text-align: center;	
+	}
+}
