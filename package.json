@@ -1,0 +1,31 @@
+{
+  "name": "bikefix",
+  "version": "1.0.0",
+  "description": "first big website",
+  "main": "script.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "bikefix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafprzygoda/bikefix.git"
+  },
+  "keywords": [
+    "bike",
+    "repair"
+  ],
+  "author": "Rafal Przygoda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafprzygoda/bikefix/issues"
+  },
+  "homepage": "https://github.com/rafprzygoda/bikefix#readme"
+}
